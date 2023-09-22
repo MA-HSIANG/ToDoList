@@ -1,0 +1,20 @@
+@media (max-width: 39.375rem) {
+  html,
+  body {
+    font-size: 56%;
+  }
+  html .container .card--container,
+  body .container .card--container {
+    width: 50rem;
+  }
+}
+@media (max-width: 29.5rem) {
+  html,
+  body {
+    font-size: 50%;
+  }
+  html .container .card--container,
+  body .container .card--container {
+    width: 40rem;
+  }
+}/*# sourceMappingURL=rwd.css.map */

@@ -1,0 +1,21 @@
+//630
+@media (max-width: 39.375rem) {
+  html,
+  body {
+    font-size: 56%;
+    .container .card--container {
+      width: 50rem;
+    }
+  }
+}
+//472
+@media (max-width: 29.5rem) {
+  html,
+  body {
+    font-size: 50%;
+    .container .card--container {
+      width: 40rem;
+      
+    }
+  }
+}
