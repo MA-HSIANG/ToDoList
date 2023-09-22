@@ -17,4 +17,18 @@
   body .container .card--container {
     width: 40rem;
   }
+  html .container .card--container .card--container-actions,
+  body .container .card--container .card--container-actions {
+    margin-left: 10rem !important;
+  }
+}
+@media (max-width: 21.56rem) {
+  html,
+  body {
+    font-size: 46%;
+  }
+  html .container .card--container,
+  body .container .card--container {
+    width: 30rem;
+  }
 }/*# sourceMappingURL=rwd.css.map */

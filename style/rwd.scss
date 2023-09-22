@@ -15,7 +15,19 @@
     font-size: 50%;
     .container .card--container {
       width: 40rem;
-      
+      .card--container-actions {
+        margin-left: 10rem !important;
+      }
+    }
+  }
+}
+//345
+@media (max-width: 21.56rem) {
+  html,
+  body {
+    font-size: 46%;
+    .container .card--container {
+      width: 30rem;
     }
   }
 }
