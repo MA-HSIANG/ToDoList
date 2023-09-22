@@ -310,7 +310,15 @@ function loadToDo() {
 function loadCount() {
   const doneCount = [];
   const unDoneCount = [];
+
   const myToDo = JSON.parse(localStorage.getItem("list"));
+  if (myToDo === null) {
+    save([]);
+    doneDom.innerText = `完成:${doneCount.length}`;
+    unDoneDom.innerText = `待完成:${unDoneCount.length}`;
+    countDataContainer.appendChild(doneDom);
+    countDataContainer.appendChild(unDoneDom);
+  }
   myToDo.filter((arr) => {
     if (arr.complete) {
       doneCount.push(arr.complete);
